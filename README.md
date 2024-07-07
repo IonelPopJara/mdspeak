@@ -16,6 +16,7 @@ cd mdspeak
 2. Build and install:
 
 ```bash
+chmod +x autogen.sh
 ./autogen.sh
 ./configure
 make
