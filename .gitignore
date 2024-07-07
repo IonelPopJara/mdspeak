@@ -1,0 +1,9 @@
+# Ignore auto-generated files
+/configure
+/aclocal.m4
+/Makefile
+/Makefile.in
+/main.o
+/mdspeak
+/autom4te.cache/
+

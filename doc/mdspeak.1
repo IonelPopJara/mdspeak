@@ -1,0 +1,36 @@
+.TH mdspeak 1 "July 2024" "mdspeak 0.1" "User Commands"
+.SH NAME
+mdspeak \- estimates speaking time of a markdown file
+.SH SYNOPSIS
+.B mdspeak
+.I FILE_PATH
+.RI [ OPTIONS ]
+.SH DESCRIPTION
+.B mdspeak
+estimates the speaking time of a markdown file based on the word count.
+
+The available options are:
+.TP
+.B \-n
+Estimate speaking time at a normal speed (150 words per minute).
+.TP
+.B \-m
+Estimate speaking time at a medium speed (175 words per minute).
+.TP
+.B \-f
+Estimate speaking time at a fast speed (200 words per minute).
+.TP
+.B \-s
+Estimate speaking time at a custom speed specified in words per minute.
+
+.SH EXAMPLES
+.TP
+.B mdspeak file.md
+Estimate the speaking time of file.md at the default speed.
+.TP
+.B mdspeak file.md \-n
+Estimate the speaking time of file.md at a normal speed.
+
+.SH AUTHOR
+Ionel Pop
+
